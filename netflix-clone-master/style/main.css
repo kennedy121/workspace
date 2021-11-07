@@ -46,10 +46,11 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capahouse.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)90%),  url('/netflix-clone-master/img/capahouse.jpg');
+    
 
     height:400px;
-   /*background-size:cover; */
+   background-size:cover;
  
 
     display:flex;
