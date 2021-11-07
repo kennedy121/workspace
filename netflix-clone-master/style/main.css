@@ -1,5 +1,5 @@
 :root{
-    --vermelho:#E50914;
+    --vermelho:#e50989;
     --preta:#141414;
 }
 
@@ -28,7 +28,7 @@ header .container{
 header .logo{
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: 'Arial Black', Times;
+    font-family: 'Uniform Rounded', Times;
     font-size:40px;
 }
 
@@ -46,13 +46,13 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capahouse.jpg');
 
     height:400px;
-    background-size:cover;
+   /*background-size:cover; */
  
 
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
