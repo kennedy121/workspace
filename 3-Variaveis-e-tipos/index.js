@@ -1,6 +1,9 @@
-let numberOne;
+var firstName = "João";
+var lastName = "Souza";
 
-numberOne = 1;
+if(firstName === "João") {
+    var firstName = "Pedro";
+    let lastName = "Silva";
+}
 
-console.log(numberOne + 2);
-
+console.log(firstName, lastName)
